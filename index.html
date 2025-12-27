@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rasshwanthi | Portfolio</title>
+<style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI', sans-serif; scroll-behavior: smooth; }
+    body { background:#fefefe; color:#1e293b; line-height:1.7; }
+
+    /* HEADER */
+    header {
+        background: #c7d2fe;
+        color:#1e293b;
+        text-align:center;
+        padding:50px 20px;
+        border-bottom-left-radius:20px;
+        border-bottom-right-radius:20px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.05);
+    }
+    header h1 { font-size:2.5rem; margin-bottom:8px; }
+    header p { font-size:1.1rem; color:#334155; }
+
+    /* NAVIGATION */
+    nav {
+        display:flex; justify-content:center; gap:20px;
+        background:#e0e7ff; padding:12px 0;
+        border-radius:12px; width:fit-content; margin:-30px auto 50px;
+        box-shadow:0 4px 12px rgba(0,0,0,0.05);
+    }
+    nav a { color:#1e3a8a; text-decoration:none; font-weight:500; padding:6px 14px; border-radius:8px; transition:0.3s; }
+    nav a:hover { background:#c7d2fe; }
+
+    section { max-width:1000px; margin:50px auto; padding:0 20px; }
+    h2 { text-align:center; font-size:2rem; margin-bottom:25px; color:#1e3a8a; }
+
+    /* About & Text */
+    .about p, .contact p { text-align:center; max-width:800px; margin:auto; color:#334155; font-size:1rem; }
+
+    /* Cards Grid */
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:25px; margin-top:30px; }
+    .card {
+        background: #fef9f9;
+        padding:25px; border-radius:16px;
+        box-shadow:0 8px 20px rgba(0,0,0,0.05);
+        transition:0.3s;
+    }
+    .card:hover { transform:translateY(-5px); box-shadow:0 12px 28px rgba(0,0,0,0.08); }
+    .card h3 { margin-bottom:12px; color:#1e3a8a; font-size:1.1rem; }
+    .card p { color:#475569; font-size:0.95rem; }
+
+    /* Section backgrounds */
+    #about { background:#fef9f9; padding:50px 20px; border-radius:15px; }
+    #education { background:#f0f4ff; padding:50px 20px; border-radius:15px; }
+    #skills { background:#fff7ed; padding:50px 20px; border-radius:15px; }
+    #projects { background:#e6fffa; padding:50px 20px; border-radius:15px; }
+    #contact { background:#fef9f9; padding:50px 20px; border-radius:15px; }
+
+    /* Contact */
+    .contact a { color:#1e3a8a; text-decoration:none; font-weight:500; }
+    .contact a:hover { text-decoration:underline; }
+
+    /* Footer */
+    footer { background:#c7d2fe; color:#1e293b; text-align:center; padding:18px 0; margin-top:60px; border-top-left-radius:12px; border-top-right-radius:12px; }
+
+    /* Responsive */
+    @media(max-width:600px){
+        header h1 { font-size:2rem; }
+        nav { flex-direction:column; gap:12px; }
+    }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>Rasshwanthi</h1>
+    <p>B.Tech Information Technology Student</p>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Practice</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        I am a B.Tech Information Technology student at Bannari Amman Institute of Technology.
+        Focused on building strong fundamentals in programming and web development,
+        with continuous practice and certified learning.
+    </p>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+    <h2>Education</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>B.Tech – Information Technology</h3>
+            <p>Bannari Amman Institute of Technology, Sathy</p>
+            <p>Year of Passing: 2028</p>
+            <p>CGPA: 8.11</p>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="grid">
+        <div class="card"><h3>Programming Languages</h3><p>C (Intermediate), Python (Basics), Java (Basics)</p></div>
+        <div class="card"><h3>Web Technologies</h3><p>HTML, CSS</p></div>
+        <div class="card"><h3>Core Concepts</h3><p>Problem Solving, Logical Thinking, Computer Fundamentals</p></div>
+        <div class="card"><h3>Certifications</h3><p>Oracle Cloud Infrastructure Associate<br>Python Fundamentals – Infosys Springboard<br>Handling Arrays in C – Infosys Springboard</p></div>
+    </div>
+</section>
+
+<!-- PRACTICE -->
+<section id="projects">
+    <h2>Practice & Improvement</h2>
+    <div class="grid">
+        <div class="card"><h3>Web Development</h3><p>Practicing HTML and CSS to build clean, responsive web pages.</p></div>
+        <div class="card"><h3>Programming Practice</h3><p>Solving problems in C and Python to strengthen fundamentals.</p></div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: rasshwanthi77@gmail.com</p>
+    <p>
+        LinkedIn: <a href="https://www.linkedin.com/in/rasshwanthi-v-b86470367/" target="_blank">linkedin.com/in/rasshwanthi-v</a>
+    </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 Rasshwanthi | Information Technology</p>
+</footer>
+
+</body>
+</html>
